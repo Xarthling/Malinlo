@@ -4,6 +4,7 @@ import Button from "../Components/smallButton";
 import Mock from "../assets/mock.svg";
 import Profile from "../Pages/Profile";
 import Partner from "../Pages/Partner";
+import Card from "../Components/Card";
 const Home = () => {
   return (
     <div className="flex justify-center items-center w-full h-screen p-3">
@@ -15,9 +16,9 @@ const Home = () => {
           </h4>
         </div>
         <div className="p-3 w-full h-full">
-        <Profile/>
-        <Partner/>
-       
+        {/* <Profile/> */}
+        {/* <Partner/> */}
+        <Card/>
       </div>
       </div>
     </div>

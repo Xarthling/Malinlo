@@ -28,11 +28,11 @@ const Partner = () => {
       </div>
       <div className=" w-1/2 h-full flex flex-col items-end">
         <div className=" flex flex-col">
-          <Button className="border border-n-3  " children="Send a gift" />
+          <Button className="border border-n-3  " title="Send a gift" />
           <p className="p text-n-3">3 Days Ago you sent a gift</p>
         </div>
         <div className=" flex flex-col">
-          <Button className="border border-n-3 bg-n-1 text-n-3 hover:bg-n-3 hover:text-n-1" children="Plan a Date" />
+          <Button className="border border-n-3 bg-n-1 text-n-3 hover:bg-n-3 hover:text-n-1" title="Plan a Date" />
           <p className="p text-n-3">3 Days ago you had a date</p>
         </div>
       </div>

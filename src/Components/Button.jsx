@@ -6,8 +6,9 @@ const Button = ({ type = 'button', title, onClick, className = '' }) => {
     <button
       type={type}
       onClick={onClick}
-      className={`px-4 py-2 bg-n-3 w-3/4 text-white rounded hover:opacity-50 transition-DEFAULT m-2 ${className}`}
-    >
+      className={`px-4 py-2 bg-n-3 w-3/4 text-white rounded m-2 
+        hover:opacity-50 transition-opacity ${className}`}
+>
       {title}
     </button>
   );

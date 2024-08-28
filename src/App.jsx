@@ -8,9 +8,9 @@ export default function App() {
     <div className="flex flex-col w-screen h-screen bg-n-5 overflow-y-scroll">
       <Header />
       <div className="flex items-center justify-center flex-1  ">
-        <Signup />
+        {/* <Signup /> */}
         {/* <Login/> */}
-        {/* <Home/> */}
+        <Home/>
       </div>
       <Footer />
     </div>

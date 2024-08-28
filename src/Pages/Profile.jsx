@@ -9,11 +9,11 @@ const Profile = () => {
           <Button onClick={() => alert("Button clicked!") } children="Add New"/>
         </div>
         <div className="w-full p-3 flex justify-between items-center border-n-6 border-solid border rounded-md">
-          <div className="flex  items-center gap-4">
+          <div className="flex  items-center gap-2 sm:gap-2 md:gap-4">
             <img src={Mock} alt="" />
-            <p>Betty</p>
+            <h3 className="h4">Betty</h3>
           </div>
-          <p>3 Days ago you send a gift</p>
+          <p className="p sm:p-1 text-center">3 Days ago you send a gift</p>
           <Button children=">"/>
         </div>
     </div>
